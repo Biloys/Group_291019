@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.footer {
+  padding: 40px 80px;
+  margin-top: 20px;
+  border-top: 1px solid #ebebeb;
+}
+.footer__border {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 15px;
+}
+.footer__list {
+  color: #484848;
+}
+.footer__list-item {
+  margin: 5px 0;
+}
+.footer__list-item:first-child {
+  margin-top: 20px;
+}
+.footer__link {
+  color: #767676;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer__link_new::after {
+  position: absolute;
+  content: "Новинка";
+  color: #fff;
+  background-color: #006a70;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 15px;
+}
+
+.bottom-links {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+.bottom-links__item {
+  font-size: 14px;
+  line-height: 18px;
+  color: #767676;
+  padding: 0 10px;
+}
+.bottom-links__img {
+  height: 17px;
+  width: 19px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.share {
+  display: inline-flex;
+  right: 0;
+  position: absolute;
+  align-items: center;
+}
+.share__pic {
+  height: 17px;
+  margin: 0 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .global-footer {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

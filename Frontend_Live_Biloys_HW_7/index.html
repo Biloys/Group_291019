@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/find-house.css" />
+    <link rel="stylesheet" href="./css/preview-list.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <header class="global-header">
+      <div class="global-header__content content-wrapper">
+        <nav class="navbar" id="navbar">
+          <button class="navbar__toggle" id="btn"></button>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">My bookings</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="global-content">
+      <div class="banner">
+        <div class="content-wrapper banner__content">
+          <form class="banner__form form" action="" method="get">
+            <h3 class="form__title">Бронируйте уникальное жилье</h3>
+            <div class="form__location">
+              <label class="form__label" for="location">Где</label>
+              <input type="text" id="location" class="banner__form-input" />
+            </div>
+            <div class="form__period">
+              <label class="form__label" for="arrival">Прибытие</label>
+              <label class="form__label" for="departure">Выезд</label>
+
+              <input
+                class="banner__form-input banner__form-input_short"
+                type="date"
+                name="arrival"
+                id="arrival"
+              />
+              <input
+                class="banner__form-input banner__form-input_short"
+                type="date"
+                name="departure"
+                id="departure"
+              />
+            </div>
+            <div class="form__type">
+              <label class="form__label" for="type">Взрослые</label>
+              <label class="form__label" for="type">Дети</label>
+              <input class="banner__form-input" type="text" id="type" />
+            </div>
+            <div class="button-right">
+              <button class="form__btn" type="submit">Начать поиск</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="find-house content-wrapper">
+        <h2 class="find-house__title">Жилье Airbnb Plus</h2>
+        <h3 class="find-house__sub-title">
+          Подборка жилья, проверенного на качество и дизайн.
+        </h3>
+        <div class="find-house__pic">
+          <img
+            class="find-house__img"
+            src="./assets/images/Framebanner.png"
+            alt=""
+          />
+          <a class="find-house__btn" href="">Найти жилье</a>
+        </div>
+      </div>
+      <div class="preview-list content-wrapper">
+        <h2 class="preview-list__title">Представляем Приключения Airbnb</h2>
+        <h3 class="preview-list__sub-title">
+          Многодневные поездки под руководством местных экспертов.
+          <br />Развлечения, питание и проживание включены.
+        </h3>
+        <div class="card-list grid">
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">3.7</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-2.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-1.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 card">
+            <img class="card__img" src="./assets/images/card-3.png" alt="" />
+            <div class="card__content">
+              <span class="card__rating">4.5</span>
+              <h2 class="card__title">Сидней</h2>
+              <h3 class="card__desc">Убежище в джунглях на прекрасном Бали</h3>
+              <h3 class="card__desc">От 820$ на человека</h3>
+              <a class="card__btn" href="">Бронировать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="appartament content-wrapper">
+        <h2 class="appartament__title">Жилье по всему миру</h2>
+        <div class="appartament__offers grid">
+          <div class="col-3 col-xs-12 offer">
+            <img class="offer__img" src="./assets/images/prev-1.png" alt="" />
+            <div class="offer__content">
+              <span class="offer__rating">4.90</span>
+
+              <h2 class="offer__title">
+                <span class="super-owner">Супер хозяин</span>Австрия
+              </h2>
+              <h3 class="offer__desc">Sunny apartment near metro station.</h3>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 offer">
+            <img class="offer__img" src="./assets/images/prev-2.png" alt="" />
+            <div class="offer__content">
+              <span class="offer__rating">4.90</span>
+              <h2 class="offer__title">
+                <span class="super-owner">Супер хозяин</span>США
+              </h2>
+              <h3 class="offer__desc">Grand and Cozy 1920's SF Studio</h3>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 offer">
+            <img class="offer__img" src="./assets/images/prev-3.png" alt="" />
+            <div class="offer__content">
+              <h2 class="offer__title">Таиланд</h2>
+              <h3 class="offer__desc">White Breeze Pool 1BD Apartment</h3>
+            </div>
+          </div>
+          <div class="col-3 col-xs-12 offer">
+            <img class="offer__img" src="./assets/images/prev-4.png" alt="" />
+            <div class="offer__content">
+              <h2 class="offer__title">
+                <span class="super-owner">Супер хозяин</span>Великобритания
+              </h2>
+              <h3 class="offer__desc">Old Smock Windmill in rural Kent</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="global-footer">
+      <div class="content-wrapper footer grid">
+        <div class="col-3 footer__border">
+          <!--              -->
+          <ul class="footer__list">
+            Airbnb
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Карьера</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Новости</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Правила</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link"
+                >Принадлежность, этнокультурные и другие различия</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Доступность</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 footer__border">
+          <!--              -->
+          <ul class="footer__list">
+            Подробнее о нас
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Доверие и безопасность</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Бонус на путешествие</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Airbnb Citizen</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Деловые поездки</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Чем заняться</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Airbnbmag</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 footer__border">
+          <!--              -->
+          <ul class="footer__list">
+            Прием гостей
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Почему стоит принимать гостей</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Гостеприимство</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link"
+                >Как стать ответственным хозяином</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Организация Впечатлений</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Open Homes</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 footer__border">
+          <!--              -->
+          <ul class="footer__list">
+            Поддержка
+            <li class="footer__list-item">
+              <a href="" class="footer__link">Поддержка</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="" class="footer__link footer__link_new"
+                >Поддержка соседей</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-links">
+          <a class="bottom-links__item" href=""
+            ><img
+              class="bottom-links__img"
+              src="./assets/images/airbnb.png"
+              alt=""
+            />
+            © 2020 Airbnb, Inc. All rights reserved.</a
+          >
+          <a class="bottom-links__item" href="">Уcловия</a>
+          <a class="bottom-links__item" href="">Конфиденциальность</a>
+          <a class="bottom-links__item" href="">Карта сайта</a>
+          <div class="share">
+            <a class="share__ulr" href=""
+              ><img
+                class="share__pic"
+                src="./assets/images/social-1.png"
+                alt=""
+            /></a>
+            <a class="share__ulr" href=""
+              ><img
+                class="share__pic"
+                src="./assets/images/social-2.png"
+                alt="" /></a
+            ><a class="share__ulr" href=""
+              ><img
+                class="share__pic"
+                src="./assets/images/social-3.png"
+                alt="" /></a
+            ><a class="share__ulr" href=""
+              ><img
+                class="share__pic"
+                src="./assets/images/social-4.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const btn = document.querySelector("#btn");
+      const navbar = document.querySelector("#navbar");
+
+      btn.addEventListener("click", () => {
+        navbar.classList.toggle("navbar_active");
+      });
+    </script>
+  </body>
+</html>

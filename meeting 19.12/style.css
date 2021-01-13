@@ -1,0 +1,19 @@
+.lighter {
+  display: flex;
+  justify-content: start;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: #686565;
+  border-radius: 50%;
+  border: 2px solid #000;
+  outline: none;
+  margin: 3px;
+}
+
+.btn-dynamic {
+  border-radius: 50%;
+  outline: none;
+}

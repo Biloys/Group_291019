@@ -1,0 +1,27 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.comment {
+  width: 100%;
+  border: 1px solid #3e3e3e;
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+}
+.comment__title {
+  margin: 5px 0;
+}
+.comment__img {
+  display: block;
+  width: 150px;
+}
+
+.author {
+  padding: 5px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

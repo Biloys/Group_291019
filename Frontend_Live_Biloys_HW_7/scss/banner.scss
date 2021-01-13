@@ -1,0 +1,77 @@
+.banner {
+  height: 1100px;
+  background-image: url(../assets/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__form {
+    width: 441px;
+    height: 475px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px 32px 24px 32px;
+  }
+
+  &__form-input {
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin: 15px 0;
+    &_short {
+      width: 49%;
+    }
+  }
+}
+
+.form {
+  &__title {
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 24px;
+  }
+  &__label {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #484848;
+    width: 49%;
+    display: inline-block;
+  }
+  &__btn {
+    background-color: #ff5a5f;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+.button-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+    &__form {
+      display: none;
+    }
+  }
+}

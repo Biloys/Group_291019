@@ -1,0 +1,40 @@
+.traffic {
+  box-sizing: border-box;
+  width: 100px;
+  height: 320px;
+  margin: 100px auto;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(56, 56, 56);
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  border: 2px solid grey;
+  border-radius: 100px;
+  outline: none;
+}
+.circle_top {
+  background-color: rgb(150, 0, 0);
+}
+.circle_center {
+  background-color: rgb(134, 134, 0);
+}
+.circle_bottom {
+  background-color: rgb(0, 65, 0);
+}
+.circle_top.active {
+  background-color: red;
+  border: 2px solid red;
+}
+.circle_center.active {
+  background-color: yellow;
+  border: 2px solid yellow;
+}
+.circle_bottom.active {
+  background-color: green;
+  border: 2px solid green;
+}

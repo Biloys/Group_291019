@@ -1,0 +1,31 @@
+.global-footer {
+  display: flex;
+  background-color: var(--rose-color);
+  height: 137px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+.global-footer__content {
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-link {
+  display: flex;
+}
+
+.footer-link__img {
+  padding-right: 20px;
+}
+
+.footer-link__info {
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  font-weight: 400;
+}

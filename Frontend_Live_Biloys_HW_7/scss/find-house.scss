@@ -1,0 +1,57 @@
+.find-house {
+  padding-top: 65px;
+  &__title {
+    color: #222222;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: normal;
+  }
+  &__sub-title {
+    color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+  }
+  &__pic {
+    background: url(../assets/images/Rectanglebanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 24px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    max-width: 220px;
+  }
+  &__btn {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #484848;
+    display: block;
+    padding: 5px 45px 5px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 36px;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 8px;
+      background-image: url(../assets/images/arrow.png);
+      background-repeat: no-repeat;
+      top: 16px;
+      right: 23px;
+      background-size: 70%;
+    }
+    &:hover {
+      box-shadow: inset 0px 0px 2px 0px #484848;
+    }
+  }
+}
