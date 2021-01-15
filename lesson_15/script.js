@@ -1,5 +1,3 @@
-import { AddCommentForm } from "./add-comment-form.js";
+import { AdvertismentsPage } from "./advertisments-page.js";
 
-const main = document.querySelector("main");
-const form = new AddCommentForm(main);
-form.render();
+const page = new AdvertismentsPage(document.querySelector("main"));

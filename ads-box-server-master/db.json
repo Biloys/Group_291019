@@ -33,17 +33,24 @@
     {
       "author": "Santa!",
       "text": "Ho-Ho-Ho",
+      "title": "Ho-Ho-Ho",
       "createdAt": 1609078953695,
       "avatarUrl": "images/2020-12-27T14:22:33.688Z-santa-icon.png",
       "id": 1
     },
     {
-      "createdAt": 1610709672778,
-      "avatarUrl": "images/default-avatar.png",
+      "author": "santa",
+      "title": "yohoho",
+      "text": "my comments",
+      "createdAt": 1610716566188,
+      "avatarUrl": "images/2021-01-15T13:16:06.183Z-css-fon.jpg",
       "id": 2
     },
     {
-      "createdAt": 1610709727559,
+      "author": "",
+      "title": "",
+      "text": "",
+      "createdAt": 1610716727062,
       "avatarUrl": "images/default-avatar.png",
       "id": 3
     }
