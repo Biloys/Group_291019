@@ -1,0 +1,12 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  &__title {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(49, 34, 34);
+  }
+  &__desc {
+    font-size: 16px;
+  }
+}
