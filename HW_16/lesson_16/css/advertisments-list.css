@@ -1,0 +1,27 @@
+.advertisments-list {
+  max-width: 450px;
+  background: #bbbbbb;
+  padding: 20px;
+  margin: 0 auto;
+}
+.advertisments-list__items {
+  margin-top: 40px;
+}
+
+.advertisments {
+  padding: 10px;
+}
+.advertisments__title {
+  font-size: 26px;
+}
+.advertisments__description {
+  margin: 10px 0;
+}
+.advertisments__note {
+  margin: 10px 0;
+}
+.advertisments__avatar {
+  width: 100%;
+}
+
+/*# sourceMappingURL=advertisments-list.css.map */
