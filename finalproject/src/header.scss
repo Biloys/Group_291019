@@ -1,0 +1,107 @@
+@import "variables.scss";
+.global-header {
+  height: 81px;
+  background-color: $base-green-color;
+
+  display: flex;
+  &__logo {
+    background-color: $base-orange-color;
+    padding: 22px;
+    line-height: 20px;
+    width: 27%;
+  }
+  &__content {
+    width: 66.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__join {
+    background-color: $base-orange-color;
+    width: 6.5%;
+    display: flex;
+    height: 81px;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    z-index: 999;
+  }
+}
+
+.logo {
+  &__wrapper {
+    font-family: $font-raleway;
+  }
+  &__title a {
+    color: $base-green-color;
+    font-size: 28px;
+  }
+  &__subtitle a {
+    color: $base-green-color;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+.navbar {
+  font-family: $font-raleway;
+  height: 100%;
+  &__toggle {
+    display: none;
+    visibility: hidden;
+  }
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+  }
+  &__item {
+    visibility: visible;
+  }
+  &__link {
+    color: $base-white-color;
+    font-size: 13px;
+    padding: 18px 15px;
+    transition: color, $transition;
+    &:hover {
+      color: $base-orange-color;
+    }
+  }
+}
+.login-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 13%;
+  padding-right: 15px;
+  &__link {
+    color: $base-orange-color;
+    display: flex;
+    transition: color, $transition;
+    &:hover {
+      color: $txth;
+    }
+  }
+}
+
+.login-avatar {
+  height: 20px;
+  display: block;
+  padding-right: 20px;
+}
+
+.join {
+  color: $txtcol-1;
+  font-size: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  &__icon {
+    height: 57px;
+    width: 62px;
+    display: block;
+  }
+  &__text {
+    transform: rotate(90deg);
+  }
+}

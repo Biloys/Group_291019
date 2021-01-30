@@ -1,0 +1,45 @@
+@import "./variables.scss";
+.my-custom-fade {
+  max-width: 100%;
+  position: relative;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  max-height: 800px;
+}
+
+.slick-dots {
+  bottom: 30px;
+}
+.slick-dots li button:before {
+  color: #fff;
+  opacity: 0.9;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 0.3;
+}
+
+.slider {
+  &__content {
+    color: $base-white-color;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 34%;
+    top: 24%;
+    left: 23%;
+  }
+  &__title {
+    font-size: 106px;
+  }
+  &__subtitle {
+    font-size: 32px;
+    margin-left: 2%;
+  }
+  &__button {
+    margin-top: 25px;
+    margin-left: 2%;
+  }
+}

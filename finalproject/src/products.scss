@@ -1,0 +1,51 @@
+@import "./variables.scss";
+
+.products {
+  background-color: $base-grey-color;
+  padding: 100px 100px;
+  &__content {
+    background-color: #fff;
+    max-width: 610px;
+    height: 610px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &__title {
+    font-size: 32px;
+    color: $base-green-color;
+    padding: 45px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__line-title {
+    width: 60px;
+    background-color: #293e31;
+    height: 2px;
+    margin: 6px 20px 0 30px;
+  }
+  &__icon {
+    width: 129px;
+    height: 136px;
+    position: absolute;
+    top: -70px;
+    left: -60px;
+  }
+  &__slider {
+    width: 610px;
+    height: 506px;
+    position: absolute;
+    left: -110px;
+    bottom: 0;
+  }
+  &__btn {
+    width: 172px;
+    margin: 80px auto 0;
+    background-color: $base-orange-color;
+    transition: color, $transition;
+    &:hover {
+      background-color: $base-green-color;
+      color: $base-white-color;
+    }
+  }
+}
