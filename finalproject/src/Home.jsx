@@ -3,6 +3,7 @@ import { Fade } from "./slider";
 import { HomeDesc } from "./HomeDesc";
 import { Products } from "./products";
 import { Button } from "./button";
+import { HomeParallax } from "./HomeParallax";
 import img1 from "./images/slider-1.webp";
 import img2 from "./images/slider-2.webp";
 import img3 from "./images/slider-3.webp";
@@ -56,6 +57,8 @@ export class Home extends React.Component {
 
         <HomeDesc />
         <Products pic={slider2} />
+        <HomeParallax />
+        <div className="bottom"></div>
       </div>
     );
   }

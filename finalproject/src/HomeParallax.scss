@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.homeParallax {
+  background-color: $base-green-color;
+  &__wrapper {
+    height: 699px;
+    display: flex;
+  }
+  &__col {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    &_par {
+      height: 699px;
+    }
+  }
+  &__pic {
+    display: block;
+    width: 488px;
+    height: 335px;
+    margin: 20.3% auto;
+  }
+}
+.bottom {
+  height: 700px;
+  background-color: $base-grey-color;
+}

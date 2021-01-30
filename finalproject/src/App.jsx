@@ -6,6 +6,7 @@ import { OurProduce } from "./OurProduce";
 import { Blog } from "./Blog";
 import { ContactUs } from "./ContactUs";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 export class App extends React.Component {
   render() {
@@ -29,6 +30,7 @@ export class App extends React.Component {
             <ContactUs />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     );
   }
