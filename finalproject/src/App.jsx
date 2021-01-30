@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from "./Home";
-import { About } from "./About";
-import { OurProduce } from "./OurProduce";
-import { Blog } from "./Blog";
-import { ContactUs } from "./ContactUs";
-import { Header } from "./Header";
-import { Footer } from "./Footer";
+import { Home } from "./home/Home";
+import { About } from "./about/About";
+import { OurProduce } from "./ourproducts/OurProduce";
+import { Blog } from "./blog/Blog";
+import { ContactUs } from "./contact/ContactUs";
+import { Header } from "./header/Header";
+import { Footer } from "./footer/Footer";
 
 export class App extends React.Component {
   render() {

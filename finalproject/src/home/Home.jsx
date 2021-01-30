@@ -1,17 +1,17 @@
-import React, { useState } from "react";
-import { Fade } from "./slider";
+import React from "react";
+import { Fade } from "../components/slider/slider";
 import { HomeDesc } from "./HomeDesc";
 import { Products } from "./products";
-import { Button } from "./button";
+import { Button } from "../components/button/button";
 import { HomeParallax } from "./HomeParallax";
-import img1 from "./images/slider-1.webp";
-import img2 from "./images/slider-2.webp";
-import img3 from "./images/slider-3.webp";
-import img4 from "./images/slider-4.webp";
-import img5 from "./images/slider-5.webp";
-import img6 from "./images/slider-6.webp";
-import img7 from "./images/slider-7.webp";
-import img8 from "./images/slider-8.webp";
+import img1 from "../images/slider-1.webp";
+import img2 from "../images/slider-2.webp";
+import img3 from "../images/slider-3.webp";
+import img4 from "../images/slider-4.webp";
+import img5 from "../images/slider-5.webp";
+import img6 from "../images/slider-6.webp";
+import img7 from "../images/slider-7.webp";
+import img8 from "../images/slider-8.webp";
 
 export class Home extends React.Component {
   render() {

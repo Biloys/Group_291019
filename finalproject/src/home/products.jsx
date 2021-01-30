@@ -1,8 +1,8 @@
 import React from "react";
-import "./products.scss";
-import icon from "./images/icon-3.svg";
-import { Fade } from "./slider";
-import { Button } from "./button";
+import "../scss/products.scss";
+import icon from "../images/icon-3.svg";
+import { Fade } from "../components/slider/slider";
+import { Button } from "../components/button/button";
 
 export class Products extends React.Component {
   render() {

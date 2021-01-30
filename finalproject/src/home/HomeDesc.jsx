@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "./button";
-import "./home-desc.scss";
-import aboutIcon from "./images/icon.svg";
+import { Button } from "../components/button/button";
+import "../scss/home-desc.scss";
+import aboutIcon from "../images/icon.svg";
 
 export class HomeDesc extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import logo from "./images/avatar.svg";
-import iconJoin from "./images/icon-2.svg";
+import logo from "../images/avatar.svg";
+import iconJoin from "../images/icon-2.svg";
 import "./header.scss";
 
 export class Header extends React.Component {

@@ -1,8 +1,8 @@
 import React from "react";
-import { Parallax, Background } from "react-parallax";
-import "./HomeParallax.scss";
-import img1 from "./images/img-4.webp";
-import img2 from "./images/img-5.webp";
+import { Parallax } from "react-parallax";
+import "../scss/HomeParallax.scss";
+import img1 from "../images/img-4.webp";
+import img2 from "../images/img-5.webp";
 
 export class HomeParallax extends React.Component {
   render() {
