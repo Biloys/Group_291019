@@ -1,0 +1,40 @@
+@import "../../scss/variables.scss";
+.global-footer {
+  &__time-table {
+    background-color: #fff;
+    padding: 70px 55px;
+    font-size: 21px;
+    display: flex;
+    font-weight: bold;
+    font-family: $museo;
+    top: -125px;
+    position: relative;
+    span {
+      display: block;
+    }
+  }
+}
+.time-table {
+  &__col {
+    width: 33.333%;
+    line-height: 30px;
+    border-right: 1px solid #000;
+    padding: 0 30px;
+    &:last-child {
+      border-right: none;
+    }
+    &-title {
+      margin-bottom: 20px;
+      color: $txtcol-2;
+    }
+  }
+  &__img {
+    height: 160px;
+    width: 160px;
+    display: block;
+    position: absolute;
+    bottom: -108px;
+    left: 40px;
+    transform: rotate(-15deg);
+  }
+}

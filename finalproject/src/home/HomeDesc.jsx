@@ -19,7 +19,7 @@ export class HomeDesc extends React.Component {
               content and make changes to the font. I’m a great place for you to
               tell a story and let your users know a little more about you.
             </p>
-            <Button class="about-home__btn" text="Join Our CSA" />
+            <Button class="about-home__btn" text="Join Our CSA" link="/" />
           </div>
           <div className="about-home__img about-home__col">
             <img
