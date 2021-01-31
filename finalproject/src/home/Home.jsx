@@ -4,6 +4,7 @@ import { HomeDesc } from "./HomeDesc";
 import { Products } from "./products";
 import { Button } from "../components/button/button";
 import { HomeParallax } from "./HomeParallax";
+import { HomeBlog } from "./homeBlog";
 import img1 from "../images/slider-1.webp";
 import img2 from "../images/slider-2.webp";
 import img3 from "../images/slider-3.webp";
@@ -58,7 +59,7 @@ export class Home extends React.Component {
         <HomeDesc />
         <Products pic={slider2} />
         <HomeParallax />
-        <div className="bottom"></div>
+        <HomeBlog />
       </div>
     );
   }

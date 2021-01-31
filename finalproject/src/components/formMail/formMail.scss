@@ -1,0 +1,58 @@
+@import "../../scss/variables.scss";
+
+.form-mail {
+  display: flex;
+  justify-content: space-between;
+  &__title {
+    font-size: 21px;
+    font-family: $museo;
+    color: #fff;
+  }
+  &__field {
+    display: flex;
+  }
+  &__label {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: $base-orange-color;
+    margin-right: 20px;
+  }
+  &__native-label {
+    position: absolute;
+    top: -30px;
+  }
+  &__native-input {
+    height: 50px;
+    width: 461px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 21px;
+    font-family: $museo;
+    color: $base-orange-color;
+    padding: 10px;
+    &::placeholder {
+      color: #fff;
+    }
+    &:hover,
+    &:focus {
+      border-color: $base-orange-color;
+    }
+    &:invalid {
+      background-color: $base-pink-color;
+    }
+  }
+  &__btn {
+    width: 197px;
+    height: 50px;
+    font-size: 21px;
+    font-family: $museo;
+    cursor: pointer;
+    color: $base-green-color;
+    background-color: #fff;
+    transition: background-color, $transition;
+    &:hover {
+      background-color: $base-orange-color;
+    }
+  }
+}

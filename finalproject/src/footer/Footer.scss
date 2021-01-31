@@ -6,4 +6,27 @@
     max-width: 1050px;
     margin: 0 auto;
   }
+  &__mail {
+    padding: 50px 40px;
+  }
+}
+
+.social {
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+  }
+  &__item {
+    padding: 10px 105px;
+    &:nth-child(2) {
+      border-right: 1px solid $base-orange-color;
+      border-left: 1px solid $base-orange-color;
+    }
+  }
+  &__link {
+    color: $base-orange-color;
+    font-size: 33px;
+    font-family: $museo;
+  }
 }
