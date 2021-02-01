@@ -25,7 +25,7 @@ export class TimeTable extends React.Component {
           <span className="time-table__col-time">​Sunday: 9am - 8pm</span>
         </div>
         <div className="time-table__col">
-          <span className="time-table__col-title">Opening Hours</span>
+          <span className="time-table__col-title">Delivery Hours</span>
           <span className="time-table__col-time">Mon - Fri: 8am - 8pm</span>
           <span className="time-table__col-time">​​Saturday: 9am - 7pm</span>
           <span className="time-table__col-time">​Sunday: 9am - 8pm</span>
