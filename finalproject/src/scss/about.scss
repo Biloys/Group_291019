@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.about-page {
+  .products {
+    padding: 200px 100px 300px;
+    .slick-arrow {
+      z-index: 10;
+    }
+    .products__slider {
+      bottom: -15px;
+    }
+    .slick-prev {
+      left: 10px;
+      &::before {
+        content: "<";
+        font-size: 30px;
+      }
+    }
+    .slick-next {
+      right: 10px;
+      &::before {
+        content: ">";
+        font-size: 30px;
+      }
+    }
+  }
+}

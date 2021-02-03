@@ -44,6 +44,20 @@ export class Home extends React.Component {
       );
     });
 
+    const setting = {
+      accessibility: false,
+      dots: true,
+      arrows: false,
+      fade: true,
+      infinite: true,
+      speed: 1500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: false,
+    };
+
     return (
       <div className="home-page">
         <div className="my-custom-fade">
@@ -53,11 +67,16 @@ export class Home extends React.Component {
 
             <Button class="slider__button" text="Learn More" link="/about" />
           </div>
-          <Fade pic={slider} />
+          <Fade pic={slider} setting={setting} />
         </div>
 
         <HomeDesc />
-        <Products pic={slider2} />
+        <Products
+          pic={slider2}
+          title="Season's Produce"
+          btn="yes"
+          setting={setting}
+        />
         <HomeParallax />
         <HomeBlog />
       </div>

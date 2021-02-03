@@ -1,0 +1,9 @@
+.full-width__parallax {
+  min-height: 200px;
+  &-col {
+    height: 531px;
+  }
+  img {
+    height: 581px !important;
+  }
+}

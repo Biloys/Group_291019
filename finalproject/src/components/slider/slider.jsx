@@ -19,6 +19,7 @@ export class Fade extends React.Component {
       autoplaySpeed: 3000,
       pauseOnHover: false,
     };
-    return <Slider {...settings}>{this.props.pic}</Slider>;
+    const settingsCustom = this.props.setting;
+    return <Slider {...settingsCustom}>{this.props.pic}</Slider>;
   }
 }
