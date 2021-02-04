@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./home/Home";
 import { About } from "./about/About";
-import { OurProduce } from "./ourproducts/OurProduce";
+import { OurProducts } from "./ourproducts/OurProducts";
 import { Blog } from "./blog/Blog";
 import { ContactUs } from "./contact/ContactUs";
 import { Header } from "./header/Header";
@@ -21,7 +21,7 @@ export class App extends React.Component {
             <About />
           </Route>
           <Route path="/our-produce">
-            <OurProduce />
+            <OurProducts />
           </Route>
           <Route path="/blog">
             <Blog />

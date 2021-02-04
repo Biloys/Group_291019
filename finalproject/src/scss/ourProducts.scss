@@ -1,0 +1,46 @@
+@import "./variables.scss";
+@import "./grid.scss";
+
+.ourProducts {
+  &__page {
+    padding-bottom: 125px;
+  }
+  &__wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  &__head {
+    background-color: $base-green-color;
+    min-height: 200px;
+    color: $base-white-color;
+    padding: 90px 0 190px;
+  }
+  &__title {
+    font-family: $museo;
+    font-size: 32px;
+  }
+  &__subtitle {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.list {
+  &__item {
+    border: 1px solid red;
+    padding: 40px 40px;
+  }
+  &__card {
+    background-color: #000;
+    width: 448px;
+    height: 447px;
+  }
+}
+.list__card {
+  .slick-slider {
+    height: 100%;
+  }
+  .slick-slide {
+    overflow: hidden;
+  }
+}

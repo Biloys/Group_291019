@@ -3,8 +3,8 @@ import { ParallaxFullWidth } from "../components/parallax-full-width/parallax-fu
 import img from "../images/img-6.webp";
 import icon from "../images/icon-5.svg";
 import { Desc } from "../components/desc/desc";
-import "../scss/about.scss";
 import { Products } from "../home/products";
+import "../scss/about.scss";
 
 import img1 from "../images/slider-9.webp";
 import img2 from "../images/slider-10.webp";
