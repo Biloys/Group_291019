@@ -1,11 +1,9 @@
 import React from "react";
-
-import { Button } from "../components/button/button";
 import "../scss/grid.scss";
-import "../scss/homeBlog.scss";
+import { Button } from "../components/button/button";
 import posts from "../components/posts/posts";
 import { PostList } from "../components/posts/postList";
-
+import "../scss/homeBlog.scss";
 const homePost = [];
 
 for (let i = 0; i < 3; i++) {
@@ -22,7 +20,9 @@ export class HomeBlog extends React.Component {
             <h1 className="home-blog__title"> From Our Blog</h1>
             <hr className="home-blog__line" />
           </div>
-          <PostList posts={homePost} />
+          <div className="home-blog__posts grid">
+            <PostList posts={homePost} />
+          </div>
           <div className="home-blog__link">
             <Button text="See more" class="home-blog__btn" link="/blog" />
           </div>

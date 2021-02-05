@@ -1,0 +1,52 @@
+@import "./variables.scss";
+
+.blog {
+  min-height: 1000px;
+  background-color: $base-grey-color;
+  padding-bottom: 220px;
+  transition: all, $transition;
+  &__wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  &__posts {
+    transform: translateY(-185px);
+  }
+  &__background {
+    background-color: $base-green-color;
+    height: 400px;
+  }
+
+  &__text {
+    padding-top: 75px;
+    padding-left: 20px;
+  }
+  &__title {
+    font-size: 33px;
+    font-family: $museo;
+    color: $base-white-color;
+    padding-bottom: 25px;
+  }
+  &__link {
+    color: $base-white-color;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 10px 20px;
+    transition: $transition;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:hover {
+      color: $base-orange-color;
+    }
+  }
+  &__btn {
+    background-color: $base-orange-color;
+    color: $base-green-color;
+    &:hover {
+      color: $base-white-color;
+      background-color: $base-green-color;
+    }
+  }
+}

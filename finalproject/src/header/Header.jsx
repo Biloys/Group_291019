@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../images/avatar.svg";
 import iconJoin from "../images/icon-2.svg";
 import "./header.scss";
@@ -23,29 +23,45 @@ export class Header extends React.Component {
             <button className="navbar__toggle"></button>
             <ul className="navbar__menu">
               <li className="navbar__item">
-                <Link className="navbar__link" to="/">
+                <NavLink className="navbar__link" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="navbar__item">
-                <Link className="navbar__link" to="/about">
+                <NavLink
+                  className="navbar__link"
+                  activeClassName="navbar__link_active"
+                  to="/about"
+                >
                   About
-                </Link>
+                </NavLink>
               </li>
               <li className="navbar__item">
-                <Link className="navbar__link" to="/our-produce">
+                <NavLink
+                  className="navbar__link"
+                  activeClassName="navbar__link_active"
+                  to="/our-produce"
+                >
                   Our Produce
-                </Link>
+                </NavLink>
               </li>
               <li className="navbar__item">
-                <Link className="navbar__link" to="/blog">
+                <NavLink
+                  className="navbar__link"
+                  activeClassName="navbar__link_active"
+                  to="/blog"
+                >
                   Blog
-                </Link>
+                </NavLink>
               </li>
               <li className="navbar__item">
-                <Link className="navbar__link" to="/contact-us">
+                <NavLink
+                  className="navbar__link"
+                  activeClassName="navbar__link_active"
+                  to="/contact-us"
+                >
                   Contact Us
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </nav>

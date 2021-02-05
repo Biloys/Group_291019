@@ -65,6 +65,10 @@
     font-size: 13px;
     padding: 18px 15px;
     transition: color, $transition;
+    &_active {
+      color: $base-orange-color;
+    }
+
     &:hover {
       color: $base-orange-color;
     }

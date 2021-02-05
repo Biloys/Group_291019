@@ -3,6 +3,7 @@ const posts = [
     id: 1,
     title: "New in the Basket: Seasonal Additions",
     author: "Jenya",
+    category: "news",
     likes: 3,
     views: 6,
     img:
@@ -12,6 +13,7 @@ const posts = [
     id: 2,
     title: "Crispy Kale Salad",
     author: "Jenya",
+    category: "news",
     likes: 1,
     views: 1,
     img:
@@ -21,6 +23,7 @@ const posts = [
     id: 3,
     title: "Urban Garden Workshop",
     author: "Jenya",
+    category: "news",
     likes: 7,
     views: 10,
     img:
@@ -28,51 +31,63 @@ const posts = [
   },
   {
     id: 4,
-    title: "Hello I'm 4 post",
+    title: "Pumpkin Carving Festival",
     author: "Jenya",
+    category: "recipes",
     likes: 2,
     views: 1,
-    img: "./images/post-4",
+    img:
+      "https://static.wixstatic.com/media/ad420a_2e514a5350e54d68b59a21bdf059d94c~mv2_d_3532_5298_s_4_2.jpg/v1/fit/w_580,h_870,al_c,q_80/file.webp",
   },
   {
     id: 5,
-    title: "Hello I'm 5 post",
+    title: "Farm Tour: Get to Know the Land",
     author: "Jenya",
+    category: "recipes",
     likes: 2,
     views: 1,
-    img: "./images/post-5",
+    img:
+      "https://static.wixstatic.com/media/ad420a_b88d766ec2e64b04bb17b174daf72b81~mv2_d_3130_2075_s_2.jpg/v1/fit/w_580,h_385,al_c,q_80/file.webp",
   },
   {
     id: 6,
-    title: "Hello I'm 6 post",
+    title: "Sweet Potato Fries",
     author: "Jenya",
+    category: "recipes",
     likes: 2,
     views: 1,
-    img: "./images/post-6",
+    img:
+      "https://static.wixstatic.com/media/ad420a_85b6ea6977a64649822243e64125eb13~mv2_d_6720_4480_s_4_2.jpg/v1/fit/w_580,h_387,al_c,q_80/file.webp",
   },
   {
     id: 7,
-    title: "Hello I'm 7 post",
+    title: "Creamy Pumpkin Soup",
     author: "Jenya",
+    category: "events",
     likes: 2,
     views: 1,
-    img: "./images/post-7",
+    img:
+      "https://static.wixstatic.com/media/ad420a_8b789e0eed154212a22daf4f6e73e7f2~mv2_d_2000_3000_s_2.jpg/v1/fit/w_580,h_870,al_c,q_80/file.webp",
   },
   {
     id: 8,
-    title: "Hello I'm 8 post",
+    title: "Tips for Your Herb Garden",
     author: "Jenya",
+    category: "events",
     likes: 2,
     views: 1,
-    img: "./images/post-8",
+    img:
+      "https://static.wixstatic.com/media/ad420a_ec346fdd050f4a41856cd96be2588520~mv2_d_3088_2048_s_2.jpg/v1/fit/w_580,h_385,al_c,q_80/file.webp",
   },
   {
     id: 9,
-    title: "Hello I'm 9 post",
+    title: "Avocado Season Is Here",
     author: "Jenya",
+    category: "events",
     likes: 2,
     views: 1,
-    img: "./images/post-9",
+    img:
+      "https://static.wixstatic.com/media/ad420a_33a9ce7e6c574b3cb1ad91248a0a4d03~mv2_d_2848_4288_s_4_2.jpeg/v1/fit/w_580,h_874,al_c,q_80/file.webp",
   },
 ];
 
