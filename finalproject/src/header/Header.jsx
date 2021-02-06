@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { ModalForm } from "../components/form/modalForm";
 import logo from "../images/avatar.svg";
 import iconJoin from "../images/icon-2.svg";
 import "./header.scss";
@@ -78,6 +79,7 @@ export class Header extends React.Component {
             <span className="join__text">JOIN US</span>
           </a>
         </div>
+        <ModalForm />
       </header>
     );
   }

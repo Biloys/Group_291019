@@ -31,7 +31,6 @@
     padding: 40px 40px;
   }
   &__card {
-    background-color: #000;
     width: 448px;
     height: 447px;
   }
@@ -43,4 +42,10 @@
   .slick-slide {
     overflow: hidden;
   }
+}
+
+.produce__img {
+  width: 100px;
+  height: 100px;
+  display: block;
 }

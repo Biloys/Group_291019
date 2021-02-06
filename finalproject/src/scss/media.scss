@@ -1,0 +1,9 @@
+@import "./variables.scss";
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    &__menu {
+      display: none;
+    }
+  }
+}

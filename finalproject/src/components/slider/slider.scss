@@ -45,3 +45,14 @@
     margin-left: 2%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .slider {
+    &__title {
+      font-size: 23px;
+    }
+    &__subtitle {
+      font-size: 23px;
+    }
+  }
+}

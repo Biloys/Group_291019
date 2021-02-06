@@ -110,3 +110,11 @@
     transform: rotate(90deg);
   }
 }
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    &__menu {
+      display: none;
+    }
+  }
+}

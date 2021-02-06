@@ -1,0 +1,84 @@
+@import "../../scss/variables.scss";
+
+@mixin toggle {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: 14px;
+  left: 0;
+  background-color: $base-white-color;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  visibility: hidden;
+  z-index: 999;
+  right: 0;
+  width: 710px;
+  height: 100vh;
+  background-color: $base-green-color;
+  color: $base-orange-color;
+  padding: 50px;
+  &_active {
+    display: block;
+  }
+  &__close {
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    &:before {
+      @include toggle;
+      transform: rotate(45deg);
+    }
+    &:after {
+      @include toggle;
+      transform: rotate(-45deg);
+    }
+  }
+
+  &__wrapper {
+    font-size: 16px;
+  }
+  &-form {
+    padding-top: 150px;
+  }
+  &__native-input {
+    max-width: 269px;
+    cursor: pointer;
+    &::placeholder {
+      color: $base-orange-color;
+      font-weight: 300;
+    }
+    &:hover {
+      background-color: $base-green-color;
+    }
+  }
+  &__radios {
+    border: 2px solid $base-orange-color;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 94%;
+    padding: 25px;
+  }
+  &__radio-title {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  &__radio-label {
+    padding: 10px 0;
+    input {
+      margin: 0 10px 0 0;
+    }
+  }
+  &__btn {
+    width: 186px;
+    margin: 15px auto;
+  }
+}
